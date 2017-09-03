@@ -1,0 +1,144 @@
+to do work
+add developer page with web link at home
+add product with project in java
+learn ajax and oops in php
+learn java with project
+reasoning questions in programming
+reasoning questions in maths
+
+http://www.ceezak.com/app/index.php/app
+
+
+head section
+<body>
+<div class="container">
+</div>
+</body>
+
+SELECT * FROM approve_data INNER JOIN messages_item 
+ON approve_data.short_item_desc = messages_item.mnt 
+
+SELECT * FROM approve_data INNER JOIN messages_item 
+ON approve_data.short_item_desc = messages_item.mnt 
+where messages_item.status='1' 
+AND messages_item.rnt = 'mg4@gmail.com';
+
+SELECT * FROM approve_data INNER JOIN messages_item 
+ON approve_data.short_item_desc = messages_item.mnt 
+where messages_item.status='1' and messages_item.id='17'
+AND messages_item.rnt = 'mg4@gmail.com'
+
+UPDATE approve_data SET status='1' WHEN (SELECT * FROM approve_data INNER JOIN messages_item 
+ON approve_data.short_item_desc = messages_item.mnt 
+where messages_item.status='1' 
+AND messages_item.rnt = 'mg4@gmail.com');
+
+todays agenda - 
+android app dev with GPS tracker google map api, 30 sec to send location and view on pc
+steps
+intel xdk file export
+github repo
+make app and run
+apply gps tracker api to send location every 30 sec with long,lat,device id
+catch that device id from browser to view tracking
+
+hungry envoy company,saket
+single quote in insert query
+
+con1 = mysqli_connect('localhost','root','');
+	$con2 = mysqli_connect('localhost','root','');
+	$db1 = mysqli_select_db($con1,'books');
+	$db2 = mysqli_select_db($con2,'books');
+
+add options in controllers
+home
+after search
+send_messages
+read more
+
+echo "<li class='dropdown'>
+            <a href='messages' style='background-color:#5bc0de;color:#fff;' dropdown-toggle' id='menu1' data-toggle='dropdown'>
+            <span class='glyphicon glyphicon-envelope'></span> Messages <span class='badge badge-grey'>4</span></a>
+            <ul class='dropdown-menu' role='menu' aria-labelledby='menu1' style='width:230px;'>";
+            foreach ($result as $col_msg) 
+            {
+                echo "<li role='presentation'><a role='menuitem' tabindex='-1' href='#'>";
+                echo $col_msg['username'];
+                echo "<br/>";
+                echo $col_msg['password'];
+                echo "</li>";
+            }
+            echo "</ul>";
+            echo "</li>";
+
+$sql = 'SELECT * FROM posts JOIN register ON posts.id=register.id';
+		$query = $this->db->query($sql);
+		return $query->result_array();
+
+$query = $this->db->query($sql);
+       	return $query->result_array();
+
+SELECT * FROM posts AS p LEFT OUTER JOIN register AS r ON p.id=r.id 
+		UNION 
+		SELECT * FROM posts AS p RIGHT OUTER JOIN register AS r ON p.id=r.id
+
+$this->db->select('*');
+		$this->db->from('posts');
+		$this->db->join('register', 'posts.id = register.id', 'right');
+		$this->db->join('like_data', 'posts.id = like_data.id', 'right');
+		$query = $this->db->get();
+       	return $query->result_array();
+
+updates
+like model
+like controller
+login controller
+home view
+Post controller - date insert
+
+date('Y-m-d H:i:s')
+date('y-m-d')
+
+if( ! ini_get('date.timezone') )
+{
+   date_default_timezone_set('GMT');
+}
+
+http://www.ceezak.com/app/index.php/app
+http://www.ceezak.com/app/index.php/login/verify
+
+Array
+(
+    [file_name] => cad2441dd3252cf53f12154412286ba01.jpg
+    [file_type] => image/jpeg
+    [file_path] => C:/xampp/htdocs/ci/image/
+    [full_path] => C:/xampp/htdocs/ci/image/cad2441dd3252cf53f12154412286ba01.jpg
+    [raw_name] => cad2441dd3252cf53f12154412286ba01
+    [orig_name] => cad2441dd3252cf53f12154412286ba0.jpg
+    [client_name] => cad2441dd3252cf53f12154412286ba0.jpg
+    [file_ext] => .jpg
+    [file_size] => 272.68
+    [is_image] => 1
+    [image_width] => 1920
+    [image_height] => 1200
+    [image_type] => jpeg
+    [image_size_str] => width="1920" height="1200"
+)
+1
+
+
+edit a post in profile
+delte a post in profile
+
+Cake PHP
+
+OpenCart
+Magento
+osCommerce
+WooCommerce
+WordPress
+
+SOAP
+REST
+XML
+Web Services
